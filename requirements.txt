@@ -1,0 +1,11 @@
+langchain
+langchain-openai
+langchain-core
+langchain-community
+langgraph
+trustcall
+uvicorn
+fastapi
+langgraph-checkpoint-sqlite
+tavily
+markdownify
