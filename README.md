@@ -7,11 +7,12 @@ It works like a digital research assistant, capable of searching the web, summar
 
 ## How It Works
 
-1. **Web Search** – The agent searches for information on a topic using the Tavily API.  
-2. **Summarization** – Long web pages are summarized using GPT-4o-mini into key points.  
-3. **File Storage** – Summaries and raw content are saved for later reference.  
-4. **Reflection & Decision** – The agent reflects on the results to decide what to do next.  
-5. **Sub-Agent Delegation** – Complex tasks are split among smaller sub-agents for faster research.
+Deep Agent is built around **four main components**:
+
+1. **TODO / Task Management** – Keeps track of tasks and subtasks to manage research efficiently.  
+2. **File System / Context Storage** – Stores summaries and raw content for easy reference.  
+3. **Research / Web Tools** – Performs web searches and summarizes content using GPT-4o-mini.  
+4. **Sub-Agent Delegation** – Splits complex tasks among sub-agents for parallel research and faster results.
 
 ---
 
